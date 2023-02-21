@@ -10,19 +10,19 @@ import Discuss from './components/Discuss';
 import Footer from './components/Footer';
 
 import './style.css';
- 
-export default function App(){
+
+export default function App() {
     return (
         <div className='container'>
-            <Navbar/>
-            <Header/>
-            <Features/>
-            <Work/>
-            <Img/>
-            <MeetourTeam/>
-            <Somefunfacts/>
-            <Discuss/>
-            <Footer/>
+            <Navbar />
+            <Header />
+            <Features />
+            <Work />
+            <Img />
+            <MeetourTeam />
+            <Somefunfacts />
+            <Discuss />
+            <Footer />
         </div>
     )
 }

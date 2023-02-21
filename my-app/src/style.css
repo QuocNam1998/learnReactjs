@@ -430,6 +430,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 calc((100vw - 1200px)/2);
+    z-index: 33;
 }
 
 .background-nav {
@@ -437,7 +438,18 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
     background: rgba(0, 0, 0, .1);
+    z-index: 22;
+}
+.setBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #124333;
+    transition: 0.3s ease-in-out;
 }
 
 .nav-Right,
