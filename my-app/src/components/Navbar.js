@@ -4,7 +4,7 @@ import "../style.css"; //trong reactjs muon xai thang nao thi import thang do, t
 export default function Navbar() {
     const navbar = document.querySelector('.background-nav')
     window.onscroll=() => {
-        if(window.scrollY > 750 ){
+        if(window.scrollY > 730 ){
             navbar.classList.add('setBackground')
         }
         else {
@@ -26,11 +26,11 @@ export default function Navbar() {
                 </div>
                 <div className='nav-Right'>
                     <ul className='listitem-Right'>
-                        <li className='item-Right'><a className='item-nav-right font-title fontSize-12' href='#Home'>Home</a></li>
-                        <li className='item-Right'><a className='item-nav-right font-title fontSize-12' href='#Features'>Features</a></li>
-                        <li className='item-Right'><a className='item-nav-right font-title fontSize-12' href='#Work'>Works</a></li>
-                        <li className='item-Right'><a className='item-nav-right font-title fontSize-12' href='#Team'>Team</a></li>
-                        <li className='item-Right '><a className='item-nav-right font-title fontSize-12' href='#Conntact'>Conntact</a></li>
+                        <li className='item-Right'><a className='item-nav-right font-title fontSize-12 pd__custom' href='#Home'>Home</a></li>
+                        <li className='item-Right'><a className='item-nav-right font-title fontSize-12 pd__custom' href='#Features'>Features</a></li>
+                        <li className='item-Right'><a className='item-nav-right font-title fontSize-12 pd__custom' href='#Work'>Works</a></li>
+                        <li className='item-Right'><a className='item-nav-right font-title fontSize-12 pd__custom' href='#Team'>Team</a></li>
+                        <li className='item-Right'><a className='item-nav-right font-title fontSize-12 pd__custom' href='#Conntact'>Conntact</a></li>
                     </ul>
                 </div>
             </div>

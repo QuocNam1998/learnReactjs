@@ -2,7 +2,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+.pd__custom {
+    padding: 34px 0;
+}
 .fontSize-46 {
     font-size: 40px;
 }
